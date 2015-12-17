@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mocha": "2.2.4"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R nyan test"
+  }
+}
