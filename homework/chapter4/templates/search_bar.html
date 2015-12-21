@@ -3,4 +3,13 @@ TODO: this HTML should expose a search bar
 !-->
 
 <div class="search-bar-wrapper">
+
+    <input class="search-bar-input" ng-model="searchText" ng-change="update(searchText)"/>
+
+    <ul>
+        <li ng-repeat="product in results" class="autocomplete-result">
+            {{product.name}}
+        </li>
+    </ul>
+
 </div>
